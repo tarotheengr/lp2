@@ -84,7 +84,6 @@ header .drawer {
 .font1 {
   text-align: center;
   margin-bottom: 25px;
-
 }
 
 .font1 p {
@@ -92,7 +91,7 @@ header .drawer {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 25px;
-/*タイピングここから*/
+  /*タイピングここから*/
   width: 100%;
   height: auto;
   white-space: nowrap;
@@ -328,11 +327,12 @@ header .drawer {
   background: #fff;
   cursor: pointer;
   margin: 5px 0;
-  position: relative
+  position: relative;
 }
 
-.faq_open::before, .faq_open::after {
-  content: '';
+.faq_open::before,
+.faq_open::after {
+  content: "";
   width: 15px;
   height: 3px;
   background: #ff82b2;
@@ -365,10 +365,6 @@ header .drawer {
   opacity: 1;
   padding: 10px;
 }
-
-
-
-
 
 .faq .more {
   text-align: center;
@@ -526,7 +522,6 @@ footer {
 }
 /*ページトップここまで*/
 
-
 @media screen and (max-width: 1024px) {
 }
 
@@ -569,12 +564,11 @@ footer {
     font-size: 12px;
   }
 
-  .faq_open::before, .faq_open::after {
+  .faq_open::before,
+  .faq_open::after {
     left: 50%;
     width: 12px;
   }
-
-
 
   /*ハンバーガーメニューここから*/
   header .drawer {
@@ -660,7 +654,6 @@ footer {
     font-size: 32px;
   }
 
-
   .font1 small {
     font-size: 18px;
   }
@@ -728,20 +721,16 @@ footer {
   }
 
   .faq .more {
-    width: unset;
+    width: 30%;
     margin: 0 auto;
     padding: 15px 20px;
   }
 
-.faq .more a {
-  width: unset;
-}
-
-  .faq_open::before, .faq_open::after {
+  .faq_open::before,
+  .faq_open::after {
     left: 95%;
     width: 12px;
   }
-
 
   .news .txt {
     padding: 50px 30px;
@@ -851,14 +840,10 @@ footer {
     font-size: 12px;
   }
 
-  .faq_open::before, .faq_open::after {
+  .faq_open::before,
+  .faq_open::after {
     left: 75%;
     width: 12px;
-  }
-
-  
-  .faq .more {
-    width: 30%;
   }
 
   .news .txt {
